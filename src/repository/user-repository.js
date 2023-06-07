@@ -42,7 +42,6 @@ class UserRepository {
           email: userEmail,
         },
       });
-
       return user;
     } catch (error) {
       console.log("Something went wrong in repository layer");
