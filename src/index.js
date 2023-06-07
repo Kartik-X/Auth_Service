@@ -13,7 +13,7 @@ const prepareAndStartServer = () => {
   app.listen(PORT, async () => {
     console.log(`Server started on port: ${PORT}`);
 
-    const service = new UserService();
+    //const service = new UserService();
     // const newToken = service.createToken({ email: "kk123@gmail.com", id: 1 });
     // console.log("New token is", newToken);
     // const token =
